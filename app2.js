@@ -42,7 +42,7 @@ function checkKey(e) {
          run(txt);
         }
         if(r=="727.6999999999989")
-        {var txt="Stuck in Web";
+        {var txt="Started with Web";
          run(txt);
         }
         if(r=="865.4999999999977")
