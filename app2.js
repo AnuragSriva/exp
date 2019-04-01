@@ -34,28 +34,27 @@ function checkKey(e) {
         }
          
         if(r=="446.80000000000064")
-        {var txt="12th board:78% ICSE";
+        {var txt="12th board:82% ICSE";
          run(txt);
         }
         if(r=="584.6000000000001")
-        {var txt="SRM:6.8 GPA";
+        {var txt="SRM:7.2 GPA";
          run(txt);
         }
         if(r=="727.6999999999989")
-        {var txt="10th board:88% ICSE";
+        {var txt="Stuck in Web";
          run(txt);
         }
         if(r=="865.4999999999977")
-        {var txt="10th board:88% ICSE";
+        {var txt="Exploring the Trends";
          run(txt);
         }
         if(r=="1008.5999999999965")
-        {var txt="10th board:88% ICSE";
+        {var txt="Getting back to Web";
          run(txt);
         }
         if(r=="1156.9999999999952")
-        {var txt="10th board:88% ICSE";
-         run(txt);
+        {location.reload();
         }
         if(k==0)
            k++; 
