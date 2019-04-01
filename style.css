@@ -1,0 +1,49 @@
+
+
+#slide1 {
+    position: absolute;
+    left: -600px;
+    top: 10%;
+    animation: slide1 0.5s forwards;
+    animation-delay: 1s;
+}
+
+#slide2 {
+    position: absolute;
+    left: -700px;
+    top: 20%;
+    animation: slide2 0.3s forwards;
+    animation-delay: 1.5s;
+}
+
+#pivot
+{
+margin-left: 70%;
+}
+
+#me
+{
+margin-left: 68%;
+width: 15%;
+height: 25%;
+position: absolute;
+top: -600px;
+animation: me 0.5s forwards;
+animation-delay: 1s;
+}
+#skills
+{
+  background-color: #1abc9c;
+}
+
+@keyframes slide1 {
+    100% { left:10%; }
+}
+
+@keyframes slide2 {
+    100% { left:12%; }
+}
+
+@keyframes me {
+    100% { top:20%; }
+}
